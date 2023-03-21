@@ -9,7 +9,7 @@ function closeNav() {
 window.onscroll=function(){
 var navbar = document.getElementById("nav");
 console.log(navbar)
-  if(window.scrollY > 300){
+  if(window.scrollY > 200){
 
     navbar.classList.add('bg-primary') 
   }
